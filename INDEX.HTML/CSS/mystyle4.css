@@ -1,0 +1,51 @@
+/* CSS Background color crema ligero, letras h1 y h2 rojo, tabla azul,
+ Header azul ligero con letra en negro y en el centro, parrafos */
+
+/*color de la pagina*/
+body 
+{
+	Background: hsl(61, 65%, 95%);
+}
+
+/*color de las letras*/
+h1, h2
+{
+  color: Red; 
+}
+
+/*color de la tabla*/
+table, th, td 
+{
+	 margin-left: auto;
+  margin-right: auto;
+  border: 1px solid blue;
+  text-align: center;
+}
+
+/*My Header*/
+#myHeader
+{
+  background-color: lightblue;
+  color: black;
+  padding: 30px;
+  text-align: center;
+}
+
+/*Parrafo*/
+ p 
+ {
+	font-family: verdana;
+	text-align: justify;
+	font-size:120%
+	 
+ }
+
+img
+{
+	border-collapse: collapse;
+  border-spacing: 0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
